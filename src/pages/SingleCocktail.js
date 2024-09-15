@@ -46,7 +46,7 @@ const SingleCocktail = () => {
       <Link to='/' className='btn btn-primary'>Back Home</Link>
       <h2 className='section-title'>{name}</h2>
       <div className='drink'>
-        <img src={img}/>
+        <img src={img} alt='image'/>
         <div className='drink-info'>
           <p>
             <span className='drink-data'>name:</span>
